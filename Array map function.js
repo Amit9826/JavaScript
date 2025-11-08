@@ -21,14 +21,18 @@
 // )
 // console.log(res)
 
+
 // D Stucturing in Array
-let [name,city,country,st]=["Amit","bpl","india", "mp"]
+let [name,city,country,st]=["Amit","bpl","india", "mp"];
+
+
+
 
 //spread operator
 let ar1 = [1,2,3]
 let ar2 = [4,5,6,...ar1]
-
 console.log(ar2)
+
 
 
 // D Stucturing in object
@@ -37,3 +41,6 @@ let{"name",age}={
     age:16
 }
 console.log(name)
+
+
+// local storage 
