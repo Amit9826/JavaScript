@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendar Box</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  .calendar {
+    display: flex;
+    border: 2px solid black;
+  }
+
+  .box {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-box {
+    background: white;
+    color: black;
+    border-right: 2px solid black;
+  }
+
+  .date {
+    font-size: 50px;
+    margin: 0;
+    line-height: 1;
+  }
+
+  .day {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .right-box {
+    background: red;
+    color: white;
+  }
+
+  .month {
+    font-size: 26px;
+    margin: 0;
+    margin-bottom: 8px; 
+  }
+
+  .year {
+    font-size: 22px;
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+
+  <div class="calendar">
+    <div class="box left-box">
+      <p class="date" id="date"></p>
+      <p class="day" id="day"></p>
+    </div>
+    <div class="box right-box">
+      <p class="month" id="month"></p>
+      <p class="year" id="year"></p>
+
+
+      <script src="practice4.js"></script>
+    </div>
+  </div>
+
+
+</body>
+</html>
